@@ -1,14 +1,13 @@
 # 📊 Dashboard de Vendas por Loja
 
-Este projeto apresenta um **dashboard interativo** desenvolvido em Python com Plotly, permitindo a análise da **quantidade de produtos vendidos por loja** de forma visual e dinâmica.
-
-O objetivo é facilitar a comparação entre lojas e apoiar a tomada de decisão a partir de dados de vendas.
+Este projeto apresenta um **dashboard interativo** desenvolvido em Python com Plotly para análise da **quantidade de produtos vendidos por loja**.  
+O dashboard permite explorar os dados de forma dinâmica, facilitando comparações e apoiando a tomada de decisão baseada em dados.
 
 ---
 
-## 🔗 Acesso ao Dashboard Interativo
+## 🔗 Dashboard Interativo
 
-👉 **Visualizar dashboard online:**  
+👉 **Acesse o dashboard online:**  
 https://edsondamasceno.github.io/dashboard-vendas/
 
 ---
@@ -17,22 +16,27 @@ https://edsondamasceno.github.io/dashboard-vendas/
 
 - Seleção dinâmica de lojas via **dropdown**
 - Visualização da quantidade vendida por produto
-- Gráficos interativos (zoom, hover, download da imagem)
 - Atualização automática do título conforme a loja selecionada
+- Interações nativas do Plotly (hover, zoom, pan e download do gráfico)
 
 ---
 
 ## 🛠️ Tecnologias Utilizadas
 
-- Python  
-- Pandas (tratamento de dados)  
-- Plotly (visualização interativa)  
-- GitHub Pages (publicação do dashboard)
+- **Python**
+- **Pandas** – tratamento e organização dos dados
+- **Plotly** – visualização interativa
+- **GitHub Pages** – publicação do dashboard em HTML
 
 ---
 
 ## 📁 Estrutura do Projeto
 
 ```text
-├── index.html        # Dashboard interativo (Plotly)
-├── README.md         # Documentação do projeto
+dashboard-vendas/
+├── index.html          # Dashboard interativo (Plotly)
+├── dashboard.py        # Código fonte em Python
+├── requirements.txt    # Dependências do projeto
+├── README.md           # Documentação
+└── data/
+    └── quantidade_por_loja.xlsx  # Dataset utilizado
