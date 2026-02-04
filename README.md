@@ -30,6 +30,12 @@ https://edsondamasceno.github.io/dashboard-vendas/
 
 ---
 
+## 📊 Dataset
+
+O dataset utilizado neste projeto está disponível na pasta `data/` do repositório e contém informações sobre a quantidade de produtos vendidos por loja.
+
+---
+
 ## 📁 Estrutura do Projeto
 
 ```text
